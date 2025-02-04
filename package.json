@@ -1,15 +1,18 @@
 {
   "name": "dropdown-rl",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "dropdown-rl SelectBox",
   "author": "Rizky",
   "license": "MIT",
   "repository": "Rizky/dropdown-rl",
+  "main": "dist/index.es.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "types": "dist/types/index.d.ts",
   "type": "module",
-  "main": "dist/selectbox.es.js",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
@@ -32,6 +35,7 @@
     "@storybook/react": "^8.5.3",
     "@storybook/react-vite": "^8.5.3",
     "@storybook/test": "^8.5.3",
+    "@types/node": "^22.13.1",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react-swc": "^3.5.0",
@@ -43,11 +47,20 @@
     "storybook": "^8.5.3",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vite-plugin-dts": "^4.5.0"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "eslintConfig": {
     "extends": [
       "plugin:storybook/recommended"
     ]
-  }
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
 }

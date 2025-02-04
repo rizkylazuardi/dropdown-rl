@@ -10,6 +10,12 @@ createRoot(document.getElementById('root')!).render(
 )
  */
 
-import SelectBox from "./components/selectbox/selectBox";
+import SelectBoxComponent from "./components/selectbox/selectBox";
+import { SelectObject } from "./components/selectbox/selectBoxModel";
 
+const SelectBox = (props: SelectObject) => {
+  return (
+    <SelectBoxComponent {...props} />
+  )
+}
 export { SelectBox };

@@ -23,25 +23,23 @@
 | IE10, IE11, Edge| last 5 versions| last 5 versions| last 5 versions| last 5 versions| last 5 versions
 
 ## 📦 Install
-
+Install as a component in your own project :
 ```bash
-npm install
+npm install dropdown-rl
 ```
 or
 ```bash
-yarn install
+yarn add dropdown-rl
 ```
 
 ## 📦 Run
-```bash
-npm run dev
-```
-You can also run the storybook locally using this command :
+
+for dropdown-rl develiper, You can run the storybook locally using this command :
 ```bash
 npm run storybook
 ```
 
-## 📦 Build 
+## 📦 Build for dropdown-rl developer
 This component will expose only the JavaScript file after you run this command. Then, you can push the component to your registry
 Check the result in root folder / dist
 ```bash
@@ -60,7 +58,7 @@ check the result file in root folder / storybook-static
 
 ```jsx
 import React from 'react'
-import SelectBox from './selectBox';
+import { SelectBox } from 'dropdown-rl';
 
 const data = [
     { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },

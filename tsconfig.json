@@ -1,7 +1,20 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "declaration": true,                // Generate .d.ts files
+    "declarationDir": "./dist/types",   // Output folder for declaration files
+    "outDir": "./dist",                 // Output folder for compiled JS files
+    "strict": true,                     // Optional: enables strict type checking
+    "moduleResolution": "node",         // Resolve modules like Node.js
+    "esModuleInterop": true,            // Ensures compatibility with ES Modules
+    "jsx": "react-jsx"                 // Correct JSX handling for React 17+
+  },
+  "include": [
+    "src/**/*"                          // Include files from src directory
+  ],
+  "exclude": [
+    "node_modules",                     // Exclude node_modules folder
+    "dist"                              // Exclude dist folder
   ]
 }
