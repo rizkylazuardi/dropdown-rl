@@ -1,10 +1,10 @@
 {
   "name": "dropdown-rl",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "dropdown-rl SelectBox",
   "author": "Rizky",
   "license": "MIT",
-  "repository": "Rizky/dropdown-rl",
+  "repository": "https://github.com/rizkylazuardi/dropdown-rl",
   "main": "dist/index.es.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
