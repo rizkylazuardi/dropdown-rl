@@ -6,6 +6,8 @@
 
 ## ✨ Features
 
+![Preview](./src/assets/selectbox.gif)
+
 - A flexible and beautiful Select Input control for ReactJS 
 - with multiselect, autocomplete, async and creatable support
 - also support for Portal configuration and customize render option.
@@ -45,7 +47,7 @@ Check the result in root folder / dist
 ```bash
 npm run build
 ```
-Check the result in root folder / dist
+Check the result in root folder / dist. the package ready to be published into npm registry.
 
 
 Also you can build the storybook by running this command:
