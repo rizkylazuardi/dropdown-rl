@@ -1,14 +1,14 @@
 # dropdown-rl
 
-> Anabatic React web component
+> Dropdown SelectBox component
 
 [![NPM](https://img.shields.io/npm/v/atic-react-web.svg)](https://www.npmjs.com/package/dropdown-rl) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## ✨ Features
 
-- An enterprise-class UI design system for web applications.
-- A set of high-quality React components out of the box.
-- The whole package of development and design resources and tools.
+- A flexible and beautiful Select Input control for ReactJS 
+- with multiselect, autocomplete, async and creatable support
+- also support for Portal configuration and customize render option.
 
 ## 🖥 Environment Support
 
@@ -23,33 +23,43 @@
 ## 📦 Install
 
 ```bash
-npm install --save ati-react-web
+npm install
 ```
 or
 ```bash
-yarn add ati-react-web
+yarn install
 ```
-after that you need to install peerdeps to install all required dependencies.
+
+## 📦 Run
 ```bash
-install-peerdeps ati-react-web -Y --registry http://10.1.50.104:4873/
+npm run dev
+```
+You can also run the storybook locally using this command :
+```bash
+npm run storybook
 ```
 
 ## 🔨 Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+import SelectBox from './selectBox';
 
-import { AtiButton } from 'ati-react-web'
+const data = [
+    { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
+    { value: 'blue', label: 'Blue', color: '#0052CC', isDisabled: true },
+    { value: 'purple', label: 'Purple', color: '#5243AA' },
+    { value: 'red', label: 'Red', color: '#FF5630', isFixed: true },
+    { value: 'orange', label: 'Orange', color: '#FF8B00' },
+];
 
-class Example extends Component {
-  render () {
+const MyyPage = () => {
     return (
-      <AtiButton type='button' id='example-button' text='Example Button' events={{onClick:()=>{}}} />
-    )
-  }
+        <SelectBox options={data} isSearchable={true} name="searchable_feature" />
+    );
 }
 ```
 
 ## License
 
-MIT © [Anabatic](https://github.com/Anabatic)
+RL © [GitHub](https://github.com/rizkylazuardi)
