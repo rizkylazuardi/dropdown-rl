@@ -1,6 +1,6 @@
 # dropdown-rl
 
-> Dropdown SelectBox component
+> Dropdown SelectBox component, only for Makyo Co technical test purpose. Available in npm registry https://www.npmjs.com/package/dropdown-rl
 
 [![NPM](https://img.shields.io/npm/v/atic-react-web.svg)](https://www.npmjs.com/package/dropdown-rl) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

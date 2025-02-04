@@ -13,7 +13,7 @@ import { PortalTypeEnum, SelectObject } from "./selectBoxModel";
  */
 
 const SelectBox = (props: SelectObject) => {
-    const { multiple , name, options, className, classNamePrefix="select", defaultValue=[], openMenu, usePortal=PortalTypeEnum.Basic, portalTarget, renderOption, zIndex=9999 } = props;
+    const { multiple , name, options, className, classNamePrefix="select", defaultValue=[], openMenu, usePortal, portalTarget, renderOption, zIndex } = props;
     
     const getPortalTarget = (type: PortalTypeEnum | undefined, target: HTMLElement | undefined) : HTMLElement|null|undefined => {
         if(type === PortalTypeEnum.Basic){

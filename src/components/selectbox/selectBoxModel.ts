@@ -24,5 +24,5 @@ export interface SelectObject {
     usePortal?: PortalTypeEnum,
     portalTarget?: HTMLElement,
     renderOption?: (param: OptionType) => JSX.Element
-    zIndex?: number
+    zIndex?: string | null
 }

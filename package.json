@@ -1,11 +1,12 @@
 {
   "name": "dropdown-rl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dropdown-rl SelectBox",
   "author": "Rizky",
   "license": "MIT",
   "repository": "Rizky/dropdown-rl",
   "type": "module",
+  "main": "dist/selectbox.es.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

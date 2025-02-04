@@ -20,7 +20,7 @@ const meta = {
     defaultValue:[],
     isSearchable: true,
     usePortal: PortalTypeEnum.Basic,
-    zIndex: 9999
+    zIndex: undefined,
   },
   argTypes: {
     multiple: {
@@ -51,6 +51,6 @@ export const Selectbox: Story = {
     className: "text-xl",
     isSearchable: true,
     usePortal: PortalTypeEnum.Basic,
-    zIndex: 9999
+    zIndex: undefined
   },
 };
