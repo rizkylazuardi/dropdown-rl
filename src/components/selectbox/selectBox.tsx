@@ -1,4 +1,3 @@
-import React from "react";
 import Select from "react-select";
 import { PortalTypeEnum, SelectObject } from "./selectBoxModel";
 
@@ -28,7 +27,7 @@ const SelectBox = (props: SelectObject) => {
     const multipleAttr = multiple ? { isMulti: true } : {};
     const openMenuAttr = openMenu ? { menuIsOpen: true } : {};
     const portalStyleAttr = usePortal == PortalTypeEnum.Basic || PortalTypeEnum.Custom || zIndex ? { styles: { menuPortal: (base: any) => ({ ...base, zIndex: zIndex || 9999 }) } } : {};
-    const formatOptionLabelAttr = { formatOptionLabel: renderOption } || {};
+    const formatOptionLabelAttr = renderOption ? { formatOptionLabel: renderOption } : {};
     return (
         <Select
             {...props}

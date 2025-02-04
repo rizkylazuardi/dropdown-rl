@@ -1,4 +1,3 @@
-import React from "react";
 import SelectBox from "../../components/selectbox/selectBox";
 import './../../App.css'
 import { OptionType } from "../../components/selectbox/selectBoxModel";

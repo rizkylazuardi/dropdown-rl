@@ -1,4 +1,3 @@
-import React from "react";
 import { colourOptions } from "../../data/dummy";
 import SelectBox from "../../components/selectbox/selectBox";
 import './../../App.css'

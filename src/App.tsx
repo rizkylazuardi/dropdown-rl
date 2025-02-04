@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import './App.css'
 import SelectBox from './components/selectbox/selectBox'
 import { colourOptions } from './data/dummy'
 import SearchablePage from './pages/searchable/searchablePage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

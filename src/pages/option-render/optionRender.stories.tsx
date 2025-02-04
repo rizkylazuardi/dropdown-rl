@@ -18,7 +18,7 @@ const renderOption = (param: OptionType) => {
         <div style={{ display: "flex" }}>
             <div>{label}</div>
             <div style={{ marginLeft: "10px", color: "#ccc" }}>
-                index ke - {additionalField}
+                index ke - {additionalField} value: {value}
             </div>
         </div>
     )

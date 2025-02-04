@@ -1,5 +1,4 @@
-import type { Meta, StoryObj, Preview } from '@storybook/react';
-import { Title, Subtitle, Description, Primary, Controls, Stories } from '@storybook/blocks';
+import type { Meta, StoryObj } from '@storybook/react';
 import SelectBox from './selectBox';
 import { colourOptions } from '../../data/dummy';
 import { PortalTypeEnum } from './selectBoxModel';
