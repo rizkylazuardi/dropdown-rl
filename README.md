@@ -6,7 +6,7 @@
 
 ## ✨ Features
 
-![Preview](./src/assets/selectbox.gif)
+![Preview](https://rizkylazuardi.github.io/dropdown-rl/src/assets/selectbox.gif)
 
 - A flexible and beautiful Select Input control for ReactJS 
 - with multiselect, autocomplete, async and creatable support
